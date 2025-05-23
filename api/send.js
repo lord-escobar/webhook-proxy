@@ -5,7 +5,7 @@ export default async function handler(req, res) {
 
   const { username, message, avatar } = req.body;
 
-  const webhookUrl = "https://discord.com/api/webhooks/WEBHOOK_URLİNİ_BURAYA_KOY";
+  const webhookUrl = "https://discord.com/api/webhooks/1375495039568052355/hensGjEM0nLKbUKOgURLtpjbvpZOVnvj2DlzFgyMIS9DUg2bd9iMQqhJ2ELrdivp_fzL";
 
   try {
     const response = await fetch(webhookUrl, {
